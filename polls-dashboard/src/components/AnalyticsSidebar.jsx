@@ -1,5 +1,5 @@
 // src/components/AnalyticsSidebar.jsx
-import './App.css';
+import '../App.css';
 
 export default function AnalyticsSidebar() {
   return (

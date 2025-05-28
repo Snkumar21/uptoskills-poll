@@ -1,5 +1,5 @@
 // src/components/CompletedPoll.jsx
-import './App.css';
+import '../App.css';
 
 export default function CompletedPoll({ question, options, ended }) {
   return (

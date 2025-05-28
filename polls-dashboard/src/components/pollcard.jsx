@@ -1,5 +1,5 @@
 // src/components/PollCard.jsx
-import './App.css';
+import '../App.css';
 
 export default function PollCard({ question, options, comments, daysLeft }) {
   return (

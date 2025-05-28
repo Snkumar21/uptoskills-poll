@@ -1,7 +1,7 @@
 // src/App.jsx
 import './App.css';
-import PollCard from './components/pollcard';
-import CompletedPoll from './components/completedPoll';
+import PollCard from './components/PollCard';
+import CompletedPoll from './components/CompletedPoll';
 import AnalyticsSidebar from './components/AnalyticsSidebar';
 
 function App() {
