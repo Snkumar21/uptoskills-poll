@@ -46,40 +46,6 @@ body {
   border-left: 1px solid #ddd;
 }
 
-/* SideBar styles */
-.sidebar {
-    width: 250px;
-    background: white;
-    border-right: 1px solid #ddd;
-    padding: 20px;
-    min-height: 100vh;
-    font-family: sans-serif;
-}
-
-.sidebar h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.sidebar nav a {
-    display: block;
-    margin: 8px 0;
-    color: #333;
-    text-decoration: none;
-}
-
-.sidebar nav a.active {
-    font-weight: bold;
-    color: #007bff;
-}
-
-.sidebar h3 {
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #555;
-}
-
 /* src/components/PollCard.css */
 
 .poll-card {

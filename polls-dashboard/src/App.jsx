@@ -1,5 +1,6 @@
 // src/App.jsx
 import './App.css';
+import Sidebar from './components/Sidebar';
 import PollCard from './components/PollCard';
 import CompletedPoll from './components/CompletedPoll';
 import AnalyticsSidebar from './components/AnalyticsSidebar';
@@ -7,27 +8,12 @@ import AnalyticsSidebar from './components/AnalyticsSidebar';
 function App() {
   return (
     <div className="dashboard">
-      <aside className="sidebar">
-        <h2>HR Social Hub</h2>
-        <ul>
-          <li>📄 News Feed</li>
-          <li>👤 Profiles</li>
-          <li>🏅 Recognition</li>
-          <li>👥 Groups</li>
-          <li className="active">📊 Polls</li>
-          <li>📅 Events</li>
-          <li>🖼 Media</li>
-        </ul>
-        <div className="company-links">
-          <li>🏆 Leaderboard</li>
-          <li>💡 Spotlights</li>
-          <li>📝 HR Blog</li>
-        </div>
-      </aside>
+      <Sidebar />
 
       <main className="main-content">
         <div className="polls-section">
           <h2>Polls</h2>
+          
           <div className="active-polls">
             <PollCard
               question="Which theme should we pick for Annual Day?"
