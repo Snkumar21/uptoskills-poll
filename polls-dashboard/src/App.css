@@ -131,10 +131,33 @@ body {
 }
 
 /* src/components/PollCard.css */
+.polls-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.poll-btn {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.active-poll {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
 
 .poll-card {
   background: white;
   padding: 16px;
+  margin: 10px;
   margin-bottom: 20px;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
@@ -184,6 +207,10 @@ body {
   font-size: 12px;
   color: gray;
   margin-top: 10px;
+}
+
+.completed-poll-wrapper {
+  max-width: 350px;
 }
 
 /* src/components/CompletedPoll.css */
@@ -285,7 +312,7 @@ body {
 
 .bar .value {
   width: 20px;
-  background-color: #00bcd4;
+  background-color: blue;
   border-radius: 4px 4px 0 0;
   transition: height 0.3s ease;
 }
@@ -299,7 +326,7 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: conic-gradient(#00bcd4 70%, #eee 0%);
+  background: conic-gradient(blue 70%, #eee 0%);
   margin: 10px auto;
 }
 
