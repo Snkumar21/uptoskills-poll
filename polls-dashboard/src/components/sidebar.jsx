@@ -54,7 +54,6 @@ const Sidebar = () => {
         </nav>
       </div>
 
-      {/* 👇 This will stay at the bottom */}
       <div className="profile-section" style={{ marginTop: "auto" }}>
         <div className="profile-info">
           <img src={profilePic} alt="User" className="profile-pic" />

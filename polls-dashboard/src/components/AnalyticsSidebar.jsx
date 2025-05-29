@@ -1,5 +1,8 @@
 // src/components/AnalyticsSidebar.jsx
 import '../App.css';
+import user1 from '../assets/user1.jpg';
+import user2 from '../assets/user2.jpg';
+
 
 export default function AnalyticsSidebar() {
   return (
@@ -26,8 +29,14 @@ export default function AnalyticsSidebar() {
       <div className="analytics-block">
         <h4>Recent Activity</h4>
         <ul className="activity-list">
-          <li><strong>Sarah Chen</strong> voted on <em>"Annual Day Theme"</em></li>
-          <li><strong>Mike Wilson</strong> commented on <em>"Work Preference"</em></li>
+          <li>
+            <img src={user1} alt="Sarah Chen" className="activity-avatar" />
+            Sarah Chen voted on "Annual Day Theme"
+          </li>
+          <li>
+            <img src={user2} alt="Sarah Chen" className="activity-avatar" />
+            Mike Wilson commented on "Work Preference"
+          </li>
         </ul>
       </div>
     </div>
