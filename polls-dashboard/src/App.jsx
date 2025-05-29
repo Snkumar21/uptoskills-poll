@@ -1,6 +1,7 @@
 // src/App.jsx
 import './App.css';
 import Sidebar from './components/Sidebar';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import PollCard from './components/PollCard';
 import CompletedPoll from './components/CompletedPoll';
 import AnalyticsSidebar from './components/AnalyticsSidebar';
