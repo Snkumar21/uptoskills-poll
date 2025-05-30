@@ -79,6 +79,14 @@ export default function ChatSystem() {
                     </div>
 
                 <div className="chat-input-box">
+                    <input
+                        type="text"
+                        placeholder="Type a message..."
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        onKeyDown={(e) => e.key === 'Enter' && sendMessage()}
+                    />
+
                     <label className="attach-btn" title="Attach a file">
                         📎
                         <input
@@ -87,15 +95,7 @@ export default function ChatSystem() {
                             style={{ display: 'none' }}
                         />
                     </label>
-
-                    <input
-                        type="text"
-                        placeholder="Type a message..."
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        onKeyDown={(e) => e.key === 'Enter' && sendMessage()}
-                    />
-                    <button onClick={sendMessage}>Send</button>
+                    <button onClick={sendMessage}><i class="fa fa-arrow-circle-right" aria-hidden="true" style={{fontSize: "20px"}}></i></button>
                 </div>
             </div>
         </div>
