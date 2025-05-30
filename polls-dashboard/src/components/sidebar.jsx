@@ -1,5 +1,5 @@
 import '../App.css';
-import profilePic from '../assets/user.png';
+import profilePic from '../assets/user1.jpg';
 
 const Sidebar = () => {
   return (
@@ -27,7 +27,7 @@ const Sidebar = () => {
           </a>
           <a href="#" className="active">
             <i className="fa fa-poll" aria-hidden="true" style={{paddingRight: "10px"}}></i>
-            Polls
+            Chats
           </a>
           <a href="#">
             <i className="fa-regular fa-calendar" aria-hidden="true" style={{paddingRight: "10px"}}></i>
